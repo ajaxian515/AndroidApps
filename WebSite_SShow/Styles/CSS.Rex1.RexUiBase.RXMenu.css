@@ -1,0 +1,233 @@
+﻿ 
+ .DivMainMenu
+ {
+     
+     width:90%;
+     height:25px;
+     border:solid 1px Black;
+     background:Black;
+     margin-top:15px;
+     margin-left:-25px;
+      
+     }
+ 
+ 
+ /* Menu List Styles */
+.MenuList
+{
+	list-style:none;
+	display:inline-block ;
+	position:relative;
+	text-align:center;
+	margin-left:-4%;
+	margin-top:-0.3%;
+    width:100%;
+	}
+	
+
+.MenuList li
+{
+	list-style:none;
+	display:block ;
+	position:relative;
+	float:left;
+	padding:0.5%;
+
+		
+	}
+	
+	.MenuList li a
+{
+	
+	font-size:75%;
+	text-decoration:none;
+	
+
+		
+	}
+	
+.DSiteMenuContainer ul li div
+{
+    
+     border:solid 1px #DD2628;
+     background:white;
+     position: absolute;
+	 visibility: hidden;
+     text-align:left;
+     margin-top:8px;
+        z-index:2500; 
+        
+         filter:alpha(opacity=80);  /* Internet Explorer */
+   opacity:0.8;  /* standard CSS3 */
+        
+    }
+    
+ .DSiteMenuContainer ul li div a 
+ {
+     
+     position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+color:Gray;
+font-size:95%;
+
+filter:alpha(opacity=100);  /* Internet Explorer */
+   opacity:1.0;  /* standard CSS3 */
+		
+     }
+
+.DSiteMenuContainer ul li div a:hover
+{
+    
+     color:white;
+     background:#DD2628;
+    
+    } 
+
+.ActiveTab
+{
+    
+    
+    border-right:solid 1px #009949;
+       
+    }
+    
+ 
+ .ActiveTab a
+{
+    
+    color:White;
+    font-weight:bold;
+       
+    }
+    
+ .InactiveTab a
+{
+    /*color:white;*/
+    
+    }
+ 
+ 
+.InactiveSep
+{
+    
+    
+    /*color:Gray;*/
+    
+    }
+    
+   
+   
+.InactiveTab a:hover
+{
+     /*color:#FFBFDF;*/
+        
+    }
+
+.DMenuHolder {
+    margin-top:-10px;
+}
+
+.DWider {
+    width:70px;
+    
+}
+
+.SetTopmost {
+    z-index:550000; 
+    position:absolute;
+}
+
+.SetTopmostx {
+    z-index:120000;
+}
+
+.DivSubMenu {
+    width:300px;
+    height:270px;
+    float:right;
+    background:green;
+    clear:both;
+    position:absolute;
+    margin-left:180px;
+    visibility:hidden;
+    -moz-border-radius-topright:15px;
+-moz-border-radius-bottomleft:15px;
+    -moz-border-radius-topleft:15px;
+-moz-border-radius-bottomright:15px;
+
+background:black;
+border:solid 0.8px #B9B9B9;
+opacity:0.8;
+
+-webkit-border-top-right-radius:15px;
+-webkit-border-bottom-left-radius:15px;
+    -webkit-border-radius-topleft:15px;
+-webkit-border-radius-bottomright:15px;
+
+border-top-right-radius:15px;
+border-bottom-left-radius:15px;
+border-top-left-radius:15px;
+border-bottom-right-radius:15px;
+
+-moz-box-shadow:0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+-webkit-box-shadow:0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+box-shadow:0px 0px 10px 1px rgba(0, 0, 0, 0.8);    
+
+
+}
+
+.DivSubMenu table{
+    margin-top:15px;
+    margin-bottom:-20px;
+}
+
+.DivSubMenu div.divsep{
+    width:90%;
+    margin:0 auto;
+    height:1px;
+    border-bottom:solid 1px;
+    margin-top:28px;
+    margin-bottom:-20px;
+}
+
+.NegativeTop {
+    
+}
+
+.DivSubMenu table tbody tr td{
+    vertical-align:top;
+}
+
+.DivSubMenu table tbody tr td ul{
+    margin-left:-20px;
+}
+
+.DivSubMenu table tbody tr td ul li {
+    list-style:none;
+    float:left;
+    clear:both;
+    white-space:nowrap;
+    width: 110px;
+
+}
+
+.DivSubMenu table tbody tr td ul li a {
+    color:white;
+    text-decoration:none;
+    font-size:85%;
+    padding: 1px 3px;
+		width: 100%;
+        text-shadow:0px 0px 1px black;
+        display:block;
+}
+
+.DivSubMenu table tbody tr td ul li a:hover {
+    background:limegreen;
+    cursor:pointer;
+}

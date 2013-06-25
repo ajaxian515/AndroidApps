@@ -1,0 +1,65 @@
+﻿
+/* ... Slide show styles ... */
+
+ul.bjqsx{position:relative; list-style:none;padding:0;margin:0;display:none;}
+
+
+ul.bjqsx li a {
+	
+    cursor:pointer;
+	
+}
+
+#slideshowgallery {
+
+    position:absolute;
+    height:100%;
+    width:100%;
+    /*margin-bottom:10px;*/
+   
+    }
+ 
+ ul.slideshowgallery {
+	
+	list-style:none;
+	width:100%;
+	height:100%;
+	
+	position:relative;
+	margin:0;
+	padding:0;
+	
+}	
+
+ul.slideshowgallery li {
+	position:absolute;
+	left:0;
+	right:0;
+	
+}
+
+ul.slideshowgallery li img{
+
+}
+
+ul.slideshowgallery li.show {
+	z-index:500;	
+}
+
+/*ul.bjqsx-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+
+ul.bjqsx-controls li a{
+  
+    display:block;
+  padding:5px 10px;
+  position:absolute;
+  background:transparent;
+  color:white;
+  text-decoration:none;
+  text-transform:uppercase;
+  
+}*/
+
+/* ... Slide show styles ... */
+
+
